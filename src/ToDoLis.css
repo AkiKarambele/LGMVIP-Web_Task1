@@ -1,0 +1,155 @@
+.content_main{
+    width: 25%;
+    height: 80vh;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.836);
+    background-color: #f4f4f4;
+    border-radius: 15px;
+  }
+  .upper{
+    margin-top: 15px;
+    background-color: #fb2577d5;
+  padding-bottom: 15px;
+  padding-bottom: 10px;
+  
+  }
+  .upper h1{
+    color: white;
+    background: transparent;
+    
+  
+  }
+  input::placeholder{
+    color: rgba(255, 255, 255, 0.753);
+  }
+  
+  input{
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: rgba(255, 255, 255, 0.945);
+  }
+  .upper button{
+   width: 42px;
+   border-color: transparent;
+   border: none;
+   outline: none;
+   margin-left: 9px;
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.589);
+  background-color: white;
+   border-radius: 50%; 
+   min-height: 40px;
+   color: #fb2577d5;
+   font-size: 37px;
+  }
+  .upper button:hover{
+    color: white;
+    background-color: #fb2577d5;
+  }
+  ol{
+    margin-left: -30px;
+    
+  }
+  ol li{
+  
+  
+   
+    font-size: 20px;
+    align-items: center;
+    color: #fb2577d5;
+    text-transform: capitalize;
+    display: flex;
+    min-height: 40px;
+    font-weight: 500;
+    padding: 5px 0;
+    
+  
+  }
+  .item_style button{
+    margin-left: 9px;
+    margin-right: 20px;
+    width: 42px;
+    border-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.589);
+   background-color: white;
+    border-radius: 50%; 
+    min-height: 40px;
+    color: #fb2577d5;
+    font-size: 37px;
+   }
+   li button:hover{
+     color: red;
+     border-color: red;
+     border: 2px solid red;
+   }
+   .item_style{
+    margin: 0px 9px;
+   position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+   }
+   .icon{
+    display: flex;
+    flex-direction: row;
+   }
+   .item_style .icon .bi-pencil-square{
+    font-size: 28px;
+
+    color: green;
+    justify-content: flex-end;
+   
+    align-items: center;
+   }
+   .loweer button{
+    width: 42px;
+    border-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 9px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.589);
+   background-color: white;
+    border-radius: 50%; 
+    min-height: 40px;
+    color: #fb2577d5;
+    font-size: 37px;
+   }
+   .loweer button:hover{
+     color: red;
+     border-color: red;
+     border: 2px solid red;
+   }
+   .bi-check2{
+    font-size: 32px;
+
+    color: green;
+    justify-content: flex-end;
+    padding: 0px 5px;
+    align-items: center;
+   }
+   .now{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  justify-content: space-between;
+   }
+  
+  
+  @media (max-width: 768px){
+    .content_main{
+      width: 55%;
+  
+    }
+  }
